@@ -14,7 +14,7 @@ const projects = [
     description:
       "Search any city to get real-time weather updates using the OpenWeatherMap API.",
     btn: "Check Weather",
-    link: "#",
+    link: "https://weather-app-alok.vercel.app/",
   },
   
   {
