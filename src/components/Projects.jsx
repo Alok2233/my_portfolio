@@ -6,14 +6,14 @@ const projects = [
     name: "Netflix Clone",
     description:
       "A full-featured clone of Netflix built with HTML , CSS, JS. Includes login mock, dynamic routes, and sleek UI.",
-    btn: "View Live",
-    link: "#", // replace with live link
+    btn: "View",
+    link: "https://github.com/Alok2233/netflix-clone"
   },
   {
     name: "Weather App",
     description:
       "Search any city to get real-time weather updates using the OpenWeatherMap API.",
-    btn: "Check Weather",
+    btn: "View",
     link: "https://weather-app-alok.vercel.app/",
   },
   
@@ -21,15 +21,15 @@ const projects = [
     name: "Password Generator",
     description:
       "Generate strong and customizable passwords with length and symbol controls.",
-    btn: "Generate Now",
-    link: "#",
+    btn: "View",
+    link: "https://password-genrator-40q6rq2ac-alok-dalkes-projects.vercel.app/",
   },
   {
     name: "My Portfolio",
     description:
       "A creative developer portfolio showcasing my skills, projects, and contact info.",
-    btn: "Explore",
-    link: "#",
+    btn: "View",
+    link: "https://github.com/Alok2233/my_portfolio",
   },
 ];
 

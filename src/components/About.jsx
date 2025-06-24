@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function AboutMe() {
   return (
-    <section id="about" className="min-h-screenpy-12 px-4 md:px-16 bg-[#0F172A] text-gray-800">
+    <section id="about" className="min-h-screenpy-12 px-4 md:px-16 bg-[#0F172A] text-gray-200">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -14,7 +14,7 @@ export default function AboutMe() {
       >
         <h2 className="text-4xl font-bold text-orange-600 mb-6">About Me</h2>
         <p className="text-lg leading-relaxed">
-          Hello! I'm <span className="font-semibold text-orange-700">Alok Dalke</span>, a passionate and driven <strong>pre-final year Computer Science student</strong> at <strong>Medi-Caps University, Indore</strong>.
+          Hello! I'm <span className="font-semibold text-orange-600">Alok Dalke</span>, a passionate and driven <strong>pre-final year Computer Science student</strong> at <strong>Medi-Caps University, Indore</strong>.
           <br /><br />
           I completed my <strong>10th from CBSE board</strong> and <strong>12th from MPBSE board</strong> in 2020 and 2022 respectively.
           I love building modern, interactive, and user-friendly web applications.

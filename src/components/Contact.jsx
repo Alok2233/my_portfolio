@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 export default function ContactSection() {
+
   return (
     <section id="contact" className="min-h-screen bg-[#0F172A] text-white px-4 py-16">
       <motion.div
@@ -62,6 +63,7 @@ export default function ContactSection() {
           <div>
             <button
               type="submit"
+            
               className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md transition duration-300"
             >
               Send Message

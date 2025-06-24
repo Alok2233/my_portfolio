@@ -17,7 +17,7 @@ const Hero = () => {
           sequence={[
             "Frontend Developer",
             2000,
-            "React Enthusiast",
+            "Backend Developer",
             2000,
             "Tech Explorer",
             2000,
@@ -30,18 +30,18 @@ const Hero = () => {
         <p className="text-white text-opacity-80 max-w-md text-xl">
           Passionate about building interactive, modern UIs and turning creative ideas into live web experiences.
         </p>
-        <button className="text-white bg-gradient-to-r from-orange-500 to-purple-600 px-4 py-1 rounded-full text-sm hover:opacity-90"
+      {/*  <button className="text-white bg-gradient-to-r from-orange-500 to-purple-600 px-4 py-1 rounded-full text-sm hover:opacity-90"
               >
   VIEW RESUME
-</button>
+</button>*/}
 <div className="flex space-x-7 text-3xl text-white-500  ">
-  <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/Alok2233" target="_blank" rel="noopener noreferrer">
     <FaGithub className="hover:text-orange-500 transition duration-300 " />
   </a>
-  <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.linkedin.com/in/alok-dalke-3a288128a/" target="_blank" rel="noopener noreferrer">
     <FaLinkedin className="hover:text-orange-800 transition duration-300" />
   </a>
-  <a href="https://instagram.com/your-username" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.instagram.com/alokdalke_010/" target="_blank" rel="noopener noreferrer">
     <FaInstagram className="hover:text-orange-800 transition duration-300" />
   </a>
 </div>
